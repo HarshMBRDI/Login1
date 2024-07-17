@@ -28,7 +28,7 @@ const App: React.FC = () => {
 
   return (
     <div className="login-container">
-      <img src="src\assets\Mercedes-Logo.svg.png" alt="Company Logo" className="logo" />
+      <img src="src/assets/Mercedes-Logo.svg.png" alt="Company Logo" className="logo" />
       <p className="slogan">Mercedes-Benz</p>
       <form onSubmit={handleSubmit}>
         <input
